@@ -6,13 +6,359 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
 
+
+  <header class="header">
+     <div class="header__top">
+      <p class="header__top-text">Discover how you can scale your data with TechCues</p>
+      <a href="#" class="header__top-text header__top-link">Learn More</a>
+     </div>
+     <div class="header__navbar-box">
+      <div class="header__nav__box">
+        <div class="header__logo-box">
+          <a href="#" style="text-decoration: none;">
+             <img class="header__img" src="images/logo.png" alt="logo">
+          </a>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-item__link">
+                Categories 
+                <i class='bx bx-chevron-down'></i>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-item__link">
+                Authors 
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-item__link">
+                Template 
+                <i class='bx bx-chevron-down'></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header__nav-inner">
+       <button class="header__menu-btn">
+         <i class='bx bx-menu' ></i>
+       </button>
+        <div class="header__btns">
+          <button class="header__search-btn">
+            <i class='bx bx-search' ></i>
+          </button>
+          <button class="header__subs-btn">
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+     </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__info">
+          <p class="hero__text">Mobile Technology</p>
+          <h2 class="hero__title">
+            Technology in Sales: How Data is Powering Purchase Decisions
+          </h2>
+          <p class="hero__span-text">Milford Smith</p>
+          <p class="hero__date">February 12, 2021</p>
+        </div>
+        <div class="hero__img-box">
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="article">
+    <div class="container">
+      <div class="article__inner">
+        <div class="article__top">
+            <h2 class="article__title">Recent Articles</h2>
+            <button class="article__top-btn">View All   <i class='bx bx-right-arrow-alt'></i></button>
+        </div>
+        <div class="article__main">
+          <ul class="article__list">
+            <li class="article__item">
+              <div class="article__item-img__inner">
+                <img class="article__item-img" src="./images/article1.png" alt="img">
+              </div>
+              <div class="article__item-inner">
+                <h3 class="article__item-title">
+                  Mobile Technology
+                </h3>
+                <p class="article__name">
+                  Adell Jacobi
+                </p>
+                <p class="article__item-text">
+                  Best Technology Podcast Episodes of 2020
+                </p>
+              </div>
+            </li>
+            <li class="article__item">
+              <div class="article__item-img__inner">
+                <img class="article__item-img" src="./images/article2.png" alt="img">
+              </div>
+              <div class="article__item-inner">
+                <h3 class="article__item-title">
+                  Case Studies
+                </h3>
+                <p class="article__name">
+                  Adell Jacobi
+                </p>
+                <p class="article__item-text">
+                  Drive Efficient Growth with Integrated Data
+                </p>
+              </div>
+            </li>
+            <li class="article__item">
+              <div class="article__item-img__inner">
+                <img class="article__item-img" src="./images/article3.png" alt="img">
+              </div>
+              <div class="article__item-inner">
+                <h3 class="article__item-title">
+                  Case Studies
+                </h3>
+                <p class="article__name">
+                  Milford Smith
+                </p>
+                <p class="article__item-text">
+                  The Benefits of Data-Driven Storytelling with TechCues
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <aside class="aside">
+      <div class="aside__info">
+        <p class="aside__span-text">Free ebook</p>
+        <h3 class="aside__title">5 Things You Can Do Right Now to Speed up Your Workflow</h3>
+      </div>
+      <div class="aside__subscribe">
+        <button class="aside__btn email">Email address</button>
+        <button class="aside__btn subs">SUBSCRIBE</button>
+      </div>
+    </aside>
+  </div>
+
+  <section class="case">
+    <div class="container">
+      <div class="article__top">
+        <h2 class="article__title">Case Studies</h2>
+        <button class="article__top-btn">View All   <i class='bx bx-right-arrow-alt'></i></button>
+    </div>
+      <div class="case__inner">
+         <div class="case__img-box">
+            <div class="case__img-info">
+              <img class="case__img" src="./images/article2.png" alt="img">
+            </div>
+            <div class="case__img-inner">
+              <p class="article__name case__name">Adell Jacobi</p>
+              <h2 class="case__title">
+                Drive Efficient Growth with Integrated Data
+              </h2>
+            </div>
+         </div>
+         <div class="case__info">
+          <ul class="case__list">
+            <li class="case__item">
+              <p class="case__name case__item-name article__name">Milford Smith</p>
+              <h3 class="case__item-title article__item-text">The Benefits of Data-Driven Storytelling with TechCues</h3>
+            </li>
+            <li class="case__item">
+              <p class="case__name case__item-name article__name">Adell Jacobi</p>
+              <h3 class="case__item-title article__item-text">Sales Technologies: The Most Important Digital Transformation Investment This Decade</h3>
+            </li>
+            <li class="case__item">
+              <p class="case__name case__item-name article__name">Lon Baumbach</p>
+              <h3 class="case__item-title article__item-text">Outreach CRO Hosts Event for B2B SaaS Community</h3>
+            </li>
+          </ul>
+         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mobile" class="mobile">
+    <div class="container">
+      <div class="mobile__inner">
+          <div class="mobile__box">
+            <div class="mobile__box-inner">
+            <div class="article__top mobile__top">
+              <h2 class="article__title">Mobile Technology</h2>
+              <button class="article__top-btn">View All   <i class='bx bx-right-arrow-alt'></i></button>
+          </div>
+          <ul class="case__list mobile__list">
+            <li class="case__item">
+              <p class="case__name case__item-name article__name">Milford Smith</p>
+              <h3 class="case__item-title article__item-text mobile__text">Technology in Sales: How Data is Powering Purchase Decisions</h3>
+            </li>
+            <li class="case__item">
+              <p class="case__name case__item-name article__name">Adell Jacobi</p>
+              <h3 class="case__item-title article__item-text mobile__text">Best Technology Podcast Episodes of 2020</h3>
+            </li>
+            <li class="case__item">
+              <p class="case__name case__item-name article__name">Lon Baumbach</p>
+              <h3 class="case__item-title article__item-text mobile__text">Integrate Big Data to Drive Informed, Agile Solutions</h3>
+            </li>
+          </ul>
+          </div>
+          </div>
+          <div class="mobile__aside">
+            <div class="mobile__box-inner">
+              <img class="mobile__img" src="./images/mobile-img.svg" alt="mobile-img">
+              <img class="mobile__head-img" src="./images/mobile-head.png" alt="mobile-head">
+              <h3 class="mobile__title">Quality tech news. In your inbox. Every week.</h3>
+              <div class="aside__subscribe">
+                <button class="aside__btn email mobile__btn">Email address</button>
+                <button class="aside__btn subs mobile__btn">SUBSCRIBE</button>
+              </div>
+            </div>
+          </div>
+          <div class="mobile__box">
+            <div class="mobile__box-inner">
+            <div class="article__top mobile__top">
+              <h2 class="article__title">Data Insights</h2>
+              <button class="article__top-btn">View All   <i class='bx bx-right-arrow-alt'></i></button>
+          </div>
+          <ul class="case__list mobile__list">
+            <li class="case__item">
+              <p class="case__name case__item-name article__name">Milford Smith</p>
+              <h3 class="case__item-title article__item-text mobile__text">Building an Adaptable Enterprise Sales Organization in the Next Normal</h3>
+            </li>
+            <li class="case__item">
+              <p class="case__name case__item-name article__name">Adell Jacobi</p>
+              <h3 class="case__item-title article__item-text mobile__text">It’s All About Timing — Good Sales Reps Know When to Follow Up</h3>
+            </li>
+            <li class="case__item">
+              <p class="case__name case__item-name article__name">Lon Baumbach</p>
+              <h3 class="case__item-title article__item-text mobile__text">Peeking the Crystal Ball: 3 Bold Technology Predictions in 2021</h3>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+       <div class="footer__inner">
+          <div class="footer__box">
+            <img class="footer__logo" src="./images/footer-logo.png" alt="footer-logo">
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <i class='bx bxl-facebook'></i>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <i class='bx bxl-twitter' ></i>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <i class='bx bxl-twitter' ></i>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <i class='bx bxl-slack'></i>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <i class='bx bxl-instagram' ></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__box">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <p class="footer__link">
+                  Categories
+                </p>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link"  href="#">
+                  Case Studies
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link"  href="mobile">
+                  Mobile Technology
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link"  href="#">
+                  Data Insights
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__box">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <p class="footer__link">
+                  Template
+                </p>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link"  href="#">
+                  Style Guide
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link"  href="#">
+                  License
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link"  href="#">
+                  Change Log
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__box">
+            <h3 class="mobile__title">Quality tech news. In your inbox. Every week.</h3>
+            <div class="aside__subscribe">
+              <button class="aside__btn email mobile__btn">Email address</button>
+              <button class="aside__btn subs mobile__btn">SUBSCRIBE</button>
+            </div>
+          </div>
+       </div>
+    </div>
+  </footer>
+  <div class="bootom">
+    <div class="container">
+      <p class="bottom__text">© 2020 TechCues Blog Template</p>
+      <p class="bottom__text">Created with ❤️ by Chad Morgan</p>
+      <p class="bottom__text">Powered by Webflow</p>
+    </div>
+  </div>
   <script src="js/main.js"></script>
 </body>
 
